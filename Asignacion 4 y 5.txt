@@ -1,0 +1,82 @@
+Desarrollos de ejercicios:
+2.1  Complete las siguientes oraciones 
+       a)Todo programa en C++ empieza su ejecucion en la función "MAIN"
+       b)Un(a) "llave izquierda { "empieza el cuerpo de todo función y un(a) "llace derecha }"lo termina.
+       c)La mayoría de las instruccdiones de C++ termina con un(a) "punto y coma"
+       d)La secuencia de escape \n representa al caracter "nueva línea",el cual hace que el cursor se posicione al principio de la siguiente línea en la pantalla.
+       e)La instrucción " if"se utiliza para tomar desiciones.
+2.2 Indique si cada una de las siguientes instrucciones es "verdarera" o "falsa",Si es "falsa",explique por qué.Asuma que se usa la instrucción using std::cout.
+       a)Los comentarios hacen que la compurtadora imprima,en la pantalla, el texto que se va después de las caracteres //, al ejecutarse el programa.
+         -> Faslso,los comentarios no produce nonguna acción cuando el programa se ejecuta.
+       b)Cuando la secuencia de escape \n ,se imprime con "cout" y el operador de inserción de flujo causa que el curosr se posicionejal principio de la siguiente línea en la pantalla.
+         ->Verdadero.
+       c)Todas las variables deben declararse antes de utilizarlas.
+         ->Verdadero.
+       d)Todas las variables deben ser un tipo al declararlas.
+         ->Verdadero.
+       e)C++considera que las variables numero y NuMeRo son idénticas.
+         ->Falso.C++ es muy detallista a mayúscula y minúsculas,por lo que estas variables son diferentes.
+       f)Las declaraciones pueden parecer casi en cualquier parte del cuerpo de una función.
+         ->Verdadero.
+       g)El operador módulo(%) sae pueden utilizar sólo con operandos enteros.
+         ->Verdadero.
+       h)Los operadores aritméticos *,/,% y - tienen todos el mismo nivel de precedencia.
+         ->Falso,los operadores *,/,% se encuentean en el mismo nivel de precedencia, lkos operadores + y - se encuentran en un nivel menor.
+       i)Un programa en C++ que impide tres líneas de salida debe contener tres instrucciones en las que se utulicen "cout" y el operador de inserción de flujo.
+         ->Falso,una instrucción con "count" y varias secuencias de escape "\n" puede imprimir varias líneas.
+2.3 Escriba una sola instrucción en C++ para relizar cada una de las siguientes tareas (suponga que no se han utilizado declaraciones using ni la directiva using).
+       a)Declarar las varibles c,estaEsUnaVariable,q76354 y numero como un tipo int.
+       b)Pedir al usuario que introduzca un entero.Termine su mensaje con un signo de dos puntos seguido de un espacio,y deje el cursor posicionado después del espacio.
+       c)Recibir un entero como entrada del usuario mediante el teclado y almacenarlo en la variable entera edad.
+       d)Si la variable numero no es igual a 7,imprimir "La variable numero no es igual 7"
+       e)Imprimir en una línea el mensaje#Este es un programa en C++"
+       f)Imprimir en dos líneas el mensaje"Este es un programa en C++".Termine la primera línea con C++.
+       g)Imprimir el mensaje"Este es un programa en C++" con cada palabra en una línea separada.
+       h)Imprimir el mensaje"Este es un programa en C++".Separe una palabra de otra mediante un tabulador.
+2.4 Escriba una declaración(o comentario) para realizar cada una de las siguientes tareas (suponga que se han utulizado declaraciones using para cin,cout y end1l):
+       a)Indicar que un programa calculará el producto de tres enteros.
+       b)Declarar las variables x,y ,z y resulatdo de tipo int ( en instrucciones separadas) e inicializar cada una con 0.
+       c)Pedir al usuario que escriba tres enteros.
+       d)Recibir tres enteros del teclado y almacenarlos en las variables x,y y z.
+       e)Calcular el producto de los tres enteros contenidos en las variables x,y,z y asignar el resultado a la variable resultado.
+       f)Imprimir"El producto es "seguido del valor de la variable resultado.
+2.5 Utiliza las instrucciones que escribió en el ejercicio 2.4, escriba un programa completo que calcule e imprima el producto de tres enteros. Agregue comentarios al códigos donde sea apropiado.[NOTA: necesitará escribir las declaraciones using).
+
+2.6 Identifique y corrija los errores en cada una de las siguientes instrucciones (suponga que se  utiliza la instrucción std::cout;).
+       a) IF ( C<7 );
+               cout << "C es menor que 7\n";
+        ->ERROR: el punto y coma de la funcion IF no es necesario.
+        ->Corrección: eliminar el punto y coma.
+       b) IF ( C=> 7 )
+               cout << "C es igual o mayor que 7\n";
+        ->ERROR: el operador => no es el correcto.
+        ->Corrección: cambiar el operador a >=.
+
+2.7 Hable sobre el significado de cada uno de los siguientes objetos:
+       a) std: :cin
+          ->entrada estandar que normalmente es del teclado
+       b) std: :cout
+          ->salida estandar que por lo general es la pantalla
+
+2.8 Complete las siguientes oraciones:
+    a) "Los comentarios" se utiliazn para documentar un programa y mejorar su legibilidad.
+    b) El objeto que se utiliza para imprimir información en la es "cout".
+    c) Una instrucción de C++ que toma una decisión es "if".
+    d) La mayoría de los cálculos se realizan normalmente mediante instrucciones "aritméticos".
+    e) El objeto "cin" recibe valores de entrada del teclado.
+
+2.9 Escriba una sola instrucción o línea en C++ que realice cada una de las siguie tes tareas:
+    a) Imprimir el mensaje "Escriba dos número".
+    b) Asignar el producto de las variables b y c a la variable a.
+    c) Indicar que un programa va a realizar un cálculo de nómina ( es decir, usar texto que ayude a documentar un programa).
+    d) Recibir tres valores de entrada del teclado y colocarlos en las variables enteras a,b y c.
+
+2.10 Indique cuál de los siguientes enunciados es "true"y cuál es "falso".Si es "falso", explique su respuesta.
+    a) Los operadores en C++ se evalúan de izquierda a derecha.(true and false , eso depende de las prioridades que tengan los operadores)
+    b) Los siguientes nombres de variables son todos válidos: _barra_inferior_, m928134 , t5, j7, sus_ventas, su_cuenta_total , a,b,c,z2.( true , ejemplo de una variable  mal escrita : 3z)
+    c) La instrucción cout << "a=5;";es un ejemplo típico de una instrucción de asignación.( true; porque estas definiendo cuanto vale a )
+    d) Una expresión aritmética válida en C++ sin paréntesis se evalúa de izquierda a derecha.( dependiendo de la prioridad de los operadores)
+    e) Los siguientes nombres de varables son todos inválidos: 3g, 87 , 67h2;2h.( true , todos esas variables son inválidas debido que no pueden empizae con un número)
+
+
+
